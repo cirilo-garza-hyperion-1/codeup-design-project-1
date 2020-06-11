@@ -1,0 +1,9 @@
+/* Embedded the Google fonts with @import */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+/* I put this here temporarily but this is the syntax we will need to set the fonts for some
+   of the elements on the page */
+html, body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
