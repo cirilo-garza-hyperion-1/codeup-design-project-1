@@ -7,3 +7,8 @@ html, body {
     font-family: 'Abel', sans-serif;
     font-family: 'Anton', sans-serif;
 }
+
+#logo {
+    width: 105px;
+    height: 105px;
+}
