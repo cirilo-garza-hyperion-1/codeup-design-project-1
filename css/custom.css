@@ -70,3 +70,19 @@ body {
     border-radius: 50%;
     border: 10px solid black;
 }
+
+#header-section {
+    background-color: #E6E6E6;
+}
+
+#content-section {
+    background-color: #E6E6E6;
+}
+
+#work-text {
+    font-family: 'Abel', sans-serif;
+}
+
+#footer {
+    font-family: 'Abel', sans-serif;
+}
