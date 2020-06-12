@@ -8,7 +8,7 @@ body {
     --cp-aqua: #00ABA9;
 }
 
-.content-header img {
+.logo-img {
     width: 105px;
     height: 105px;
     margin-top: -5em;
@@ -95,7 +95,29 @@ body {
         .sm-navbar{
             display: none;
         }
+    }
 
 
+/*small media query*/
+@media screen and (min-width: 576px) {
+    .logo-img{
+        margin-top: 0;
+    }
+
+
+
+    #small-nav {
+        margin-bottom: -5em;
 
     }
+
+    .pg-title {
+        padding-top: 2em;
+    }
+
+    .logo-title {
+        order: 1;
+
+    }
+
+}

@@ -14,17 +14,26 @@
 <body>
     <!-- Header section -->
     <section>
-        <div class="container-fluid mb-5 p-4" id="header-section"></div>
+        <div class="container-fluid mb-5 mb-sm-0 p-4" id="header-section">
+
+        </div>
     </section>
     <!-- Ending of Header section-->
 
 <!--    white container-->
-    <section class="d-sm">
-        <div class="container bg-white">
+    <section class="d-sm row">
+        <div class="container bg-white px-0">
             <!-- SMALL Navbar-->
-            <div class="col-12 d-sm sm-navbar">
-                <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex">
-                    <ul class="navbar-nav abel-text w-100 flex-row justify-content-between">
+            <div class="w-100 d-sm sm-navbar">
+                <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex px-0 py-0" id="small-nav">
+                    <ul class="navbar-nav abel-text w-100 flex-row justify-content-between align-items-center">
+                        <li class="logo-title">
+                            <!--                            <img src="assets/logo.png" class="d-sm logo-img">-->
+                            <div class="content-header col-12 d-flex flex-column align-items-center">
+                                <img src="assets/logo.png" class="logo-img">
+                                <h1 class="abel-text text-lowercase">Codeup Design</h1>
+                            </div>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
                         </li>
@@ -56,12 +65,12 @@
 
 
                 <!-- Logo and title -->
-                <div class="content-header col-12 d-flex flex-column align-items-center">
-                    <img src="assets/logo.png">
+                <div class="content-header col-12 d-flex flex-column align-items-center d-sm-none">
+                    <img src="assets/logo.png" class="logo-img">
                     <h1 class="abel-text text-lowercase">Codeup Design</h1>
                 </div>
 
-                <!-- Navbar-->
+                <!-- Extra Small Navbar-->
                 <div class="col-12 d-sm-none">
                     <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex">
 <!--                        <div class="d-flex w-100 border mx-5">-->
@@ -86,7 +95,7 @@
 
             <!-- Content Body -->
             <div class="w-100 mb-5">
-                <h1 class="title content-title text-center text-uppercase mt-4 mx-auto">Visual Design & Web Development</h1>
+                <h1 class="title content-title text-center text-uppercase mt-4 mx-auto pg-title">Visual Design & Web Development</h1>
             </div>
             <div class="w-100">
                 <h2 class="title content-subtitle text-center text-uppercase mt-4 mx-auto">From Park City, Utah</h2>
