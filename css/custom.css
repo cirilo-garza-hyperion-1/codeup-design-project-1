@@ -88,3 +88,14 @@ body {
     font-size: 9px;
     font-family: 'Anton', sans-serif;
 }
+
+
+/*Extra small media query*/
+@media screen and (min-width: 0px) and (max-width: 575px) {
+        .sm-navbar{
+            display: none;
+        }
+
+
+
+    }
