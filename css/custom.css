@@ -1,14 +1,72 @@
 /* Embedded the Google fonts with @import */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
-/* I put this here temporarily but this is the syntax we will need to set the fonts for some
-   of the elements on the page */
-html, body {
+body {
+    --cp-red: #E6563B;
+    --cp-orange: #EB9D3A;
+    --cp-green: #7CB06C;
+    --cp-aqua: #00ABA9;
+}
+
+.content-header img {
+    width: 105px;
+    height: 105px;
+    margin-top: -5em;
+}
+
+.abel-text {
     font-family: 'Abel', sans-serif;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+/*.nav-link {*/
+/*    font-family: 'Abel', sans-serif;*/
+/*    color: black !important;*/
+/*}*/
+
+.title {
     font-family: 'Anton', sans-serif;
 }
 
-#logo {
-    width: 105px;
+.content-title {
+    font-size: 64px;
+}
+
+.content-subtitle {
+    font-size: 48px;
+}
+
+.red-circle {
+    background-color: var(--cp-red);
     height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.orange-circle {
+    background-color: var(--cp-orange);
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.green-circle {
+    background-color: var(--cp-green);
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.aqua-circle {
+    background-color: var(--cp-aqua);
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 10px solid black;
 }
