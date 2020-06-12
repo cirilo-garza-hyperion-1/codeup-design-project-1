@@ -5,45 +5,42 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/custom.css">
 <!--bootstrap css scripts-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/custom.css">
     <title>Codeup Design</title>
 </head>
 <body>
     <!-- Header section -->
     <section>
-        <div class="container-fluid mb-5 mb-sm-0 p-4" id="header-section">
-
-        </div>
+        <div class="container-fluid mb-5 mb-sm-0 p-4" id="header-section"></div>
     </section>
     <!-- Ending of Header section-->
 
 <!--    white container-->
     <section class="d-sm row">
-        <div class="container bg-white px-0">
+        <div class="container bg-white px-1">
             <!-- SMALL Navbar-->
             <div class="w-100 d-sm sm-navbar">
                 <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex px-0 py-0" id="small-nav">
-                    <ul class="navbar-nav abel-text w-100 flex-row justify-content-between align-items-center">
-                        <li class="logo-title">
-                            <!--                            <img src="assets/logo.png" class="d-sm logo-img">-->
+                    <ul class="navbar-nav abel-text w-100 flex-row justify-content-between align-items-start">
+                        <li class="logo-title" style="order: 0;">
                             <div class="content-header col-12 d-flex flex-column align-items-center">
                                 <img src="assets/logo.png" class="logo-img">
                                 <h1 class="abel-text text-lowercase">Codeup Design</h1>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="order: 1;">
                             <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item mr-3">
+                        <li class="nav-item" style="order: 2;">
                             <a class="nav-link" href="#">Work</a>
                         </li>
-                        <li class="nav-item ml-3">
+                        <li class="nav-item" style="order: 3;">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="order: 4;">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
@@ -60,9 +57,6 @@
         <div class="container-fluid d-flex flex-wrap align-items-center" id="content-section">
             <!-- Content Header Container -->
             <div class="row w-100">
-
-
-
 
                 <!-- Logo and title -->
                 <div class="content-header col-12 d-flex flex-column align-items-center d-sm-none">
@@ -93,50 +87,82 @@
                 </div>
             </div> <!-- End of Content Header Container -->
 
-            <!-- Content Body -->
-            <div class="w-100 mb-5">
-                <h1 class="title content-title text-center text-uppercase mt-4 mx-auto pg-title">Visual Design & Web Development</h1>
-            </div>
-            <div class="w-100">
-                <h2 class="title content-subtitle text-center text-uppercase mt-4 mx-auto">From Park City, Utah</h2>
-            </div>
-            <!-- Circles -->
-            <div class="row no-gutters w-100 border">
-                <div class="col-12 d-flex justify-content-center my-3">
-                    <div class="red circle d-flex border-white mx-2">
-                        <p class="mx-auto my-auto text-white">Design</p>
-                    </div>
-                    <div class="orange circle d-flex border-white mx-2">
-                        <p class="mx-auto my-auto text-white">Develop</p>
-                    </div>
+            <div class="row">
+                <!-- Content Body -->
+                <div class="w-100 mb-5 col-sm-12">
+                    <h1 class="title content-title text-center text-uppercase mt-4 mx-auto">Visual Design & Web Development</h1>
                 </div>
-                <div class="col-12 d-flex justify-content-center">
-                    <div class="green circle d-flex border-white mx-2">
-                        <p class="mx-auto my-auto text-white">Support</p>
-                    </div>
-                    <div class="aqua circle d-flex border-white mx-2">
-                        <p class="mx-auto my-auto text-white">Host</p>
-                    </div>
+                <div class="w-100">
+                    <h2 class="title content-subtitle text-center text-uppercase mt-4 mx-auto">From Park City, Utah</h2>
                 </div>
-            </div> <!-- End of Circles -->
-            <!-- End of Content Body -->
+                <!-- Circles -->
+                <div class="row no-gutters w-100">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end my-3">
+                        <div class="red circle d-flex border-white mx-2">
+                            <p class="mx-auto my-auto text-white">Design</p>
+                        </div>
+                        <div class="orange circle d-flex border-white mx-2">
+                            <p class="mx-auto my-auto text-white">Develop</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start my-sm-3">
+                        <div class="green circle d-flex border-white mx-2">
+                            <p class="mx-auto my-auto text-white">Support</p>
+                        </div>
+                        <div class="aqua circle d-flex border-white mx-2">
+                            <p class="mx-auto my-auto text-white">Host</p>
+                        </div>
+                    </div>
+                </div> <!-- End of Circles -->
+                <!-- End of Content Body -->
+            </div>
 
-            <!--selected work text-->
+            <!-- Selected Work Text -->
+            <div class="d-sm-block d-none row w-100 no-gutters"><hr></div>
+
             <section class="d-flex justify-content-center w-100 mt-5 mb-3" id="work-text">
                 <h5 class="text-uppercase">Selected Work</h5>
             </section>
             <!--end selected work text-->
 
-            <!-- bottom image-->
-            <div class="jumbotron imgColor mb-1">
+            <!-- Bottom Image -->
+            <div class="d-sm-none jumbotron imgColor mb-1">
                 <div class="row">
                     <img class="col-12" src="assets/images/apple-ipad.jpg">
                 </div>
             </div>
-            <!--end of bottom image div-->
 
-            <!--footer-->
-            <footer class="w-100">
+            <div class="d-none d-sm-block row">
+                <div class="col-4 jumbotron imgColor mb-1">
+                    <img class="col-12" src="assets/images/apple-ipad.jpg">
+                </div>
+                <!-- Image Footer -->
+                <footer class="w-100">
+                    <div class="row no-gutters border">
+                        <div class="col-9">
+                            <h2 id="footer">Featured Project</h2>
+                        </div>
+                        <div class="d-flex col-3 justify-content-around">
+                            <div class="red circle icon d-flex">
+                                <p class="mx-auto my-auto">D</p>
+                            </div>
+                            <div class="orange circle icon d-flex">
+                                <p class="mx-auto my-auto">D</p>
+                            </div>
+                            <div class="green circle icon d-flex">
+                                <p class="mx-auto my-auto">S</p>
+                            </div>
+                            <div class="aqua circle icon d-flex">
+                                <p class="mx-auto my-auto">H</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- Bottom Image End -->
+
+            <!-- Image Footer -->
+            <footer class="w-100 d-sm-none">
                 <div class="row no-gutters border">
                     <div class="col-9">
                         <h2 id="footer">Featured Project</h2>

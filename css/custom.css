@@ -104,20 +104,35 @@ body {
         margin-top: 0;
     }
 
-
-
     #small-nav {
         margin-bottom: -5em;
 
     }
 
-    .pg-title {
+    .content-title {
+        font-size: 48px;
         padding-top: 2em;
     }
 
-    .logo-title {
-        order: 1;
+    .content-subtitle {
+        font-size: 40px;
+    }
 
+    .logo-title {
+        order: 3 !important;
+        margin: -1em -6.5em auto;
+    }
+
+    .nav-item {
+        margin-top: 1em;
     }
 
 }
+
+/* Medium size screen */
+/*@media screen and (min-width: 768px) {*/
+/*    .logo-title {*/
+/*        order: 0 !important;*/
+/*        padding-left: 5em;*/
+/*    }*/
+/*}*/
