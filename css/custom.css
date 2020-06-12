@@ -72,8 +72,8 @@ body {
     background-color: lightgrey !important;
 }
 
-#footer {
-    font-family: 'Abel', sans-serif;
+.footer {
+    font-family: 'Abel', sans-serif !important;
     font-size: 15px;
 }
 
