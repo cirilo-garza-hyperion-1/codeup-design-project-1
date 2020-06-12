@@ -22,11 +22,6 @@ body {
     color: black !important;
 }
 
-/*.nav-link {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*    color: black !important;*/
-/*}*/
-
 .title {
     font-family: 'Anton', sans-serif;
 }
@@ -39,36 +34,26 @@ body {
     font-size: 48px;
 }
 
-.red-circle {
+.circle {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+
+.red {
     background-color: var(--cp-red);
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-    border: 10px solid black;
 }
-
-.orange-circle {
+.orange {
     background-color: var(--cp-orange);
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-    border: 10px solid black;
 }
 
-.green-circle {
+.green {
     background-color: var(--cp-green);
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-    border: 10px solid black;
 }
 
-.aqua-circle {
+.aqua {
     background-color: var(--cp-aqua);
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-    border: 10px solid black;
 }
 
 #header-section {
@@ -83,6 +68,23 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+.imgColor {
+    background-color: lightgrey !important;
+}
+
 #footer {
     font-family: 'Abel', sans-serif;
+    font-size: 15px;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: none;
+}
+
+.icon p {
+    font-size: 9px;
+    font-family: 'Anton', sans-serif;
 }
