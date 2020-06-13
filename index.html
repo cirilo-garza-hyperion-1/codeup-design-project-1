@@ -5,27 +5,27 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--bootstrap css scripts-->
+    <!--Bootstrap CDN CSS Scripts-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/custom.css">
     <title>Codeup Design</title>
 </head>
 <body>
-    <!-- Header section -->
+    <!-- Header Section -->
     <section>
         <div class="container-fluid mb-5 mb-sm-0 p-4" id="header-section"></div>
     </section>
-    <!-- Ending of Header section-->
+    <!-- End of Header Section-->
 
-<!--    white container-->
-    <section class="d-sm row">
+    <!-- White Container -->
+    <section class="d-sm-block d-none row">
         <div class="container bg-white px-1">
-            <!-- SMALL Navbar-->
+            <!-- Small Navbar-->
             <div class="w-100 d-sm sm-navbar">
                 <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex px-0 py-0" id="small-nav">
                     <ul class="navbar-nav abel-text w-100 flex-row justify-content-between align-items-start">
-                        <li class="logo-title" style="order: 0;">
+                        <li class="logo-title">
                             <div class="content-header col-12 d-flex flex-column align-items-center">
                                 <img src="assets/logo.png" class="logo-img">
                                 <h1 class="abel-text text-lowercase">Codeup Design</h1>
@@ -44,21 +44,19 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                </nav> <!-- End of SMALL NavBar-->
-            </div>
+                </nav>
+            </div> <!-- End of Small Navbar-->
         </div>
     </section>
+    <!-- End of White Container -->
 
-
-<!--    end of white container-->
-
-    <!-- Content section -->
+    <!-- Content Section -->
     <section>
-        <div class="container-fluid d-flex flex-wrap align-items-center" id="content-section">
+        <div class="container-fluid d-flex flex-wrap justify-content-center" id="content-section">
             <!-- Content Header Container -->
             <div class="row w-100">
 
-                <!-- Logo and title -->
+                <!-- Logo and Title -->
                 <div class="content-header col-12 d-flex flex-column align-items-center d-sm-none">
                     <img src="assets/logo.png" class="logo-img">
                     <h1 class="abel-text text-lowercase">Codeup Design</h1>
@@ -67,7 +65,6 @@
                 <!-- Extra Small Navbar-->
                 <div class="col-12 d-sm-none">
                     <nav class="navbar navbar-expand-lg navbar-light w-100 d-flex">
-<!--                        <div class="d-flex w-100 border mx-5">-->
                             <ul class="navbar-nav abel-text w-50 flex-row justify-content-between mx-auto">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
@@ -82,122 +79,201 @@
                                     <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
-<!--                        </div>-->
-                    </nav> <!-- End of NavBar-->
+                    </nav> <!-- End of Extra Small NavBar-->
                 </div>
             </div> <!-- End of Content Header Container -->
 
-            <div class="row">
+            <div class="col-12">
                 <!-- Content Body -->
-                <div class="w-100 mb-5 col-sm-12">
+                <div class="mb-5 w-100">
                     <h1 class="title content-title text-center text-uppercase mt-4 mx-auto">Visual Design & Web Development</h1>
                 </div>
                 <div class="w-100">
                     <h2 class="title content-subtitle text-center text-uppercase mt-4 mx-auto">From Park City, Utah</h2>
                 </div>
                 <!-- Circles -->
-                <div class="row no-gutters w-100">
-                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end my-3">
-                        <div class="red circle d-flex border-white mx-2">
+                <div class="w-100 my-3 d-sm-flex">
+                    <div class="d-flex mb-2 ml-sm-auto">
+                        <div class="red circle ml-auto mr-1 d-flex border-white">
                             <p class="mx-auto my-auto text-white">Design</p>
                         </div>
-                        <div class="orange circle d-flex border-white mx-2">
+                        <div class="orange circle ml-1 mr-auto d-flex border-white mr-sm-1">
                             <p class="mx-auto my-auto text-white">Develop</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start my-sm-3">
-                        <div class="green circle d-flex border-white mx-2">
+                    <div class="d-flex mr-sm-auto">
+                        <div class="green circle ml-auto mr-1 d-flex border-white ml-sm-1">
                             <p class="mx-auto my-auto text-white">Support</p>
                         </div>
-                        <div class="aqua circle d-flex border-white mx-2">
+                        <div class="aqua circle ml-1 mr-auto d-flex border-white">
                             <p class="mx-auto my-auto text-white">Host</p>
                         </div>
                     </div>
                 </div> <!-- End of Circles -->
+                <div class="d-sm-block d-none mx-auto w-50"><hr></div>
                 <!-- End of Content Body -->
             </div>
 
             <!-- Selected Work Text -->
-            <div class="d-sm-block d-none row w-100 no-gutters"><hr></div>
-
             <section class="d-flex justify-content-center w-100 mt-5 mb-3" id="work-text">
                 <h5 class="text-uppercase">Selected Work</h5>
             </section>
-            <!--end selected work text-->
+            <!--End of Selected Work Text-->
 
             <!-- Bottom Image For Extra Small Screen -->
-            <div class="d-sm-none jumbotron imgColor mb-1">
+            <div class="d-sm-none mb-1 container">
+                <img class="img-thumbnail imgColor" src="assets/images/apple-ipad.jpg">
+                <!-- Image Footer For Extra Small Screen -->
+                <footer class="w-100 d-sm-none">
+                    <div class="row no-gutters border">
+                        <div class="col-8">
+                            <h2 class="footer">Featured Project</h2>
+                        </div>
+                        <div class="d-flex col-4 justify-content-around">
+                            <div class="red circle icon d-flex">
+                                <p class="mx-auto my-auto">D</p>
+                            </div>
+                            <div class="orange circle icon d-flex">
+                                <p class="mx-auto my-auto">D</p>
+                            </div>
+                            <div class="green circle icon d-flex">
+                                <p class="mx-auto my-auto">S</p>
+                            </div>
+                            <div class="aqua circle icon d-flex">
+                                <p class="mx-auto my-auto">H</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Image Footer For Extra Small Screen -->
+            </div>
+            <!-- End of Bottom Image for Extra Small Screen-->
+
+            <!-- Bottom Images for Small Screen -->
+            <div class="d-none d-sm-block">
                 <div class="row">
-                    <img class="col-12" src="assets/images/apple-ipad.jpg">
+                    <!-- 1st Image -->
+                    <div class="mb-1 container col-6 ml-0 p-4">
+                        <div class="container">
+                            <img class="img-thumbnail imgColor" src="assets/images/apple-ipad.jpg">
+                            <!-- 1st Image Footer For Small Screen -->
+                            <footer class="w-100">
+                                <div class="row no-gutters">
+                                    <div class="col-8">
+                                        <h2 class="footer">Featured Project</h2>
+                                    </div>
+                                    <div class="d-flex col-4 justify-content-around">
+                                        <div class="red circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="orange circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="green circle icon d-flex">
+                                            <p class="mx-auto my-auto">S</p>
+                                        </div>
+                                        <div class="aqua circle icon d-flex">
+                                            <p class="mx-auto my-auto">H</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                            <!-- End of 1st Image Footer For Small Screen -->
+                        </div>
+                    </div> <!-- Bottom of 1st Image -->
+                    <!-- 2nd Image -->
+                    <div class="mb-1 container col-6 ml-0 p-4">
+                        <div class="container">
+                            <img class="img-thumbnail imgColor" src="assets/images/macbook.jpg">
+                            <!-- 2nd Image Footer For Small Screen -->
+                            <footer class="w-100">
+                                <div class="row no-gutters">
+                                    <div class="col-8">
+                                        <h2 class="footer">Featured Project</h2>
+                                    </div>
+                                    <div class="d-flex col-4 justify-content-around">
+                                        <div class="red circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="orange circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="green circle icon d-flex">
+                                            <p class="mx-auto my-auto">S</p>
+                                        </div>
+                                        <div class="aqua circle icon d-flex">
+                                            <p class="mx-auto my-auto">H</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                            <!-- End of 2nd Image Footer For Small Screen -->
+                        </div>
+                    </div> <!-- Bottom of 2nd Image -->
+                    <!-- 3rd Image -->
+                    <div class="mb-1 container col-6 ml-0 p-4">
+                        <div class="container">
+                            <img class="img-thumbnail imgColor" src="assets/images/man.jpg">
+                            <!-- 3rd Image Footer For Small Screen -->
+                            <footer class="w-100">
+                                <div class="row no-gutters">
+                                    <div class="col-8">
+                                        <h2 class="footer">Featured Project</h2>
+                                    </div>
+                                    <div class="d-flex col-4 justify-content-around">
+                                        <div class="red circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="orange circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="green circle icon d-flex">
+                                            <p class="mx-auto my-auto">S</p>
+                                        </div>
+                                        <div class="aqua circle icon d-flex">
+                                            <p class="mx-auto my-auto">H</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                            <!-- End of 3rd Image Footer For Small Screen -->
+                        </div>
+                    </div> <!-- Bottom of 3rd Image -->
+                    <!-- 4th Image -->
+                    <div class="mb-1 container col-6 ml-0 p-4">
+                        <div class="container">
+                            <img class="img-thumbnail imgColor" src="assets/images/security.jpg">
+                            <!-- 4th Image Footer For Small Screen -->
+                            <footer class="w-100">
+                                <div class="row no-gutters">
+                                    <div class="col-8">
+                                        <h2 class="footer">Featured Project</h2>
+                                    </div>
+                                    <div class="d-flex col-4 justify-content-around">
+                                        <div class="red circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="orange circle icon d-flex">
+                                            <p class="mx-auto my-auto">D</p>
+                                        </div>
+                                        <div class="green circle icon d-flex">
+                                            <p class="mx-auto my-auto">S</p>
+                                        </div>
+                                        <div class="aqua circle icon d-flex">
+                                            <p class="mx-auto my-auto">H</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                            <!-- End of 4th Image Footer For Small Screen -->
+                        </div>
+                    </div> <!-- Bottom of 4th Image -->
                 </div>
+                <!-- End of Bottom Images for Small Screen-->
             </div>
-<!--            End Bottom Image for Extra Small Screen-->
-
-<!--            bottom images for small screen -->
-            <div class="d-none d-sm-block row">
-                <div class="container">
-                    <div class="col-4 jumbotron imgColor mb-1">
-
-                        <img class="col-12" src="assets/images/apple-ipad.jpg">
-                    </div>
-                    <!-- Image Footer For Small Screen -->
-                    <footer class="w-100">
-                        <div class="row no-gutters border">
-                            <div class="col-9">
-                                <h2 class="footer">Featured Project</h2>
-                            </div>
-                            <div class="d-flex col-3 justify-content-around">
-                                <div class="red circle icon d-flex">
-                                    <p class="mx-auto my-auto">D</p>
-                                </div>
-                                <div class="orange circle icon d-flex">
-                                    <p class="mx-auto my-auto">D</p>
-                                </div>
-                                <div class="green circle icon d-flex">
-                                    <p class="mx-auto my-auto">S</p>
-                                </div>
-                                <div class="aqua circle icon d-flex">
-                                    <p class="mx-auto my-auto">H</p>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
-                    <!-- Bottom Image Footer For Small Screen End -->
-                </div>
-
-            </div>
-            <!-- End for bottom images for small screen -->
-
-
-            <!-- Image Footer -->
-            <footer class="w-100 d-sm-none">
-                <div class="row no-gutters border">
-                    <div class="col-9">
-                        <h2 id="footer">Featured Project</h2>
-                    </div>
-                    <div class="d-flex col-3 justify-content-around">
-                        <div class="red circle icon d-flex">
-                            <p class="mx-auto my-auto">D</p>
-                        </div>
-                        <div class="orange circle icon d-flex">
-                            <p class="mx-auto my-auto">D</p>
-                        </div>
-                        <div class="green circle icon d-flex">
-                            <p class="mx-auto my-auto">S</p>
-                        </div>
-                        <div class="aqua circle icon d-flex">
-                            <p class="mx-auto my-auto">H</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
     </section>
-    <!-- end of content section-->
-
-
-
-
+    <!-- End of Content Section -->
 
 <!--bootstrap scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
