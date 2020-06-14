@@ -20,6 +20,7 @@ body {
 
 .nav-link {
     color: black !important;
+    text-transform: uppercase;
 }
 
 .title {
@@ -96,15 +97,18 @@ body {
 /*    }*/
 
 
-/*small media query*/
+/* Small Size Screen */
 @media screen and (min-width: 576px) {
+    #header-section {
+    }
+
     .logo-img{
-        margin-top: 0;
+        margin-top: -.2em;
     }
 
     #small-nav {
-        margin-bottom: -5em;
-
+        margin-bottom: -5.75em;
+        margin-top: -1em;
     }
 
     .content-title {
@@ -118,20 +122,28 @@ body {
 
     .logo-title {
         order: 3 !important;
-        margin: -1em -6.5em auto;
+        margin: -1em -4em auto;
+    }
+
+    .logo-title h1 {
+        font-size: 32px !important;
     }
 
     .nav-item {
-        margin-top: 1em;
+        margin-top: .5em;
     }
 
 }
 
-/* Medium size screen */
+/* Medium Size Screen */
 @media screen and (min-width: 768px) {
     .logo-title {
         order: 0 !important;
         padding-left: 5em;
+    }
+
+    .logo-img {
+        margin-top: -.5em;
     }
 
     .nav-item {
