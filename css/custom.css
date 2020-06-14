@@ -65,7 +65,7 @@ body {
     background-color: #E6E6E6;
 }
 
-#work-text {
+.txt-class {
     font-family: 'Abel', sans-serif;
 }
 
@@ -89,13 +89,6 @@ body {
     font-size: 9px;
     font-family: 'Anton', sans-serif;
 }
-
-
-/*Extra small media query*/
-/*@media screen and (min-width: 0px) and (max-width: 575px) {*/
-
-/*    }*/
-
 
 /* Small Size Screen */
 @media screen and (min-width: 576px) {
