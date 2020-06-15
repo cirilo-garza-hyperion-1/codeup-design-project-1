@@ -6,6 +6,8 @@ body {
     --cp-orange: #EB9D3A;
     --cp-green: #7CB06C;
     --cp-aqua: #00ABA9;
+    --cp-grey: #E6E6E6;
+    --cp-tweet: #1DA1F3;
 }
 
 .logo-img {
@@ -58,11 +60,11 @@ body {
 }
 
 #header-section {
-    background-color: #E6E6E6;
+    background-color: var(--cp-grey);
 }
 
 #content-section {
-    background-color: #E6E6E6;
+    background-color: var(--cp-grey);
 }
 
 .txt-class {
@@ -147,5 +149,19 @@ body {
     .nav-item {
         padding: 0 1em 0;
     }
+
+    .tweet {
+        color: var(--cp-tweet);
+    }
+
+    .bg-tweet {
+        color: var(--cp-grey);
+    }
+
+    .image-box {
+        height: 3.2em !important;
+    }
+
+
 }
 /*test*/
