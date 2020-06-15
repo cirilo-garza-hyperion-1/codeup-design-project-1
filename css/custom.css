@@ -166,6 +166,12 @@ body {
 
 @media screen and (min-width: 992px) {
     .adjust-width {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .adjust-width {
         width: 50%;
     }
 
