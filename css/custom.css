@@ -1,11 +1,7 @@
 /* Embedded the Google fonts with @import */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
-body {
+:root {
     --cp-red: #E6563B;
     --cp-orange: #EB9D3A;
     --cp-green: #7CB06C;
