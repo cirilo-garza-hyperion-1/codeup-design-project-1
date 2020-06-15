@@ -1,6 +1,10 @@
 /* Embedded the Google fonts with @import */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     --cp-red: #E6563B;
     --cp-orange: #EB9D3A;
@@ -94,9 +98,6 @@ body {
 
 /* Small Size Screen */
 @media screen and (min-width: 576px) {
-    #header-section {
-    }
-
     .logo-img{
         margin-top: -.2em;
     }
@@ -159,9 +160,20 @@ body {
     }
 
     .image-box {
-        height: 3.2em !important;
+        height: 65px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .adjust-width {
+        width: 50%;
     }
 
+    .content-title {
+        font-size: 64px;
+    }
 
+    .content-subtitle {
+        font-size: 48px;
+    }
 }
-/*test*/
